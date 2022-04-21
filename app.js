@@ -8,7 +8,7 @@ let productcategory = [
     {
         "name": "SDF",
         "image": "sdf.jpg",
-        "description": "JSDF description Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, soluta!",
+        "description": "SDF description Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, soluta!",
         "code": "sdf"
     },
     {
