@@ -158,7 +158,7 @@ productcategory.forEach((element) => {
             for (let i = 0; i < length; i++) {
                 if(i%2 == 0){
                     str += `
-                <div class="card mx-5 my-5">
+                <div class="card mx-5 shadow border-0 my-5">
                     <div class="row g-0  flex-row-reverse">
                         <div class="col-md-4">
                             <img src="./images/${productlist[element["code"]][i]["image"]}" class=" rounded-start " height="auto" width="100%" alt="...">
@@ -187,7 +187,7 @@ productcategory.forEach((element) => {
                 </div>`;
                 }else{
                     str += `
-                <div class="card mx-5 my-5">
+                <div class="card mx-5 my-5 shadow border-0">
                     <div class="row g-0">
                         <div class="col-md-4">
                             <img src="./images/${productlist[element["code"]][i]["image"]}" class=" rounded-start " height="100%" width="100%" alt="...">
